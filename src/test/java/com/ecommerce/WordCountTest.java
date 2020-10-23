@@ -14,7 +14,7 @@ public class WordCountTest {
 		assertEquals(2, FindNumberOfWords.findCount("hello world"));
 		assertEquals(2, FindNumberOfWords.findCount("hello world "));
 		assertEquals(3, FindNumberOfWords.findCount("hello world \r\nxyz"));
-		assertEquals(6, FindNumberOfWords.findCount("hello world dsfdsfds hello  \r\nxyz 123"));
+		assertEquals(7, FindNumberOfWords.findCount("hello world dsfdsfds hello  s\r\nxyz 123"));
 	}
 
 }
